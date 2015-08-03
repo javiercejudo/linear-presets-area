@@ -19,7 +19,7 @@ describe('area presets', function() {
   it('should convert correctly', function() {
     (5.045e+9).should.be.exactly(convert(5045, invert(area.squareMetreToSquareKilometre)), 'squareMetreToSquareKilometre')
       .and.exactly(convert(504500, invert(area.squareMetreToHectare)), 'squareMetreToHectare')
-      .and.exactly(convert(1947.8853898466393, invert(area.squareMetreToSquareMile)), 'squareMetreTosquareMile')
+      .and.exactly(convert(1947.8853898466393, invert(area.squareMetreToSquareMile)), 'squareMetreToSquareMile')
       .and.exactly(convert(1246646.6495018492, invert(area.squareMetreToAcre)), 'squareMetreToAcre')
       .and.exactly(convert(6033769783.58895, invert(area.squareMetreToSquareYard)), 'squareMetreToSquareYard')
       .and.exactly(convert(54303928052.300545, invert(area.squareMetreToSquareFoot)), 'squareMetreToSquareFoot')
@@ -27,7 +27,7 @@ describe('area presets', function() {
 
     (0).should.be.exactly(convert(0, area.squareMetreToSquareKilometre), 'squareMetreToSquareKilometre')
       .and.exactly(convert(0, area.squareMetreToHectare), 'squareMetreToHectare')
-      .and.exactly(convert(0, area.squareMetreToSquareMile), 'squareMetreTosquareMile')
+      .and.exactly(convert(0, area.squareMetreToSquareMile), 'squareMetreToSquareMile')
       .and.exactly(convert(0, area.squareMetreToAcre), 'squareMetreToAcre')
       .and.exactly(convert(0, area.squareMetreToSquareYard), 'squareMetreToSquareYard')
       .and.exactly(convert(0, area.squareMetreToSquareFoot), 'squareMetreToSquareFoot')
