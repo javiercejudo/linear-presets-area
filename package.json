@@ -1,6 +1,6 @@
 {
   "name": "linear-presets-area",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Linear presets for area units",
   "main": "src/linear-presets-area.js",
   "scripts": {
